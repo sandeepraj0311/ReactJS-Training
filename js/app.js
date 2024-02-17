@@ -38,14 +38,16 @@ setInterval( () => {
 
 const arr = [1, 2, 3, 4, 5];
 arr.forEach((x) => {
+  console.log("x : "+x);
   setTimeout(() =>
-    console.log(x), 2000 * x)
+    console.log(x), 3000*x)
 });
 
 /*
 * Create Counter using closure.
 * */
 
+/*
 function counter(){
   let num = 0;
   return function increase(){
@@ -59,3 +61,4 @@ func();
 func();
 func();
 func();
+*/
