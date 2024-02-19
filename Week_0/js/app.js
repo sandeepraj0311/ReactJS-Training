@@ -47,7 +47,6 @@ arr.forEach((x) => {
 * Create Counter using closure.
 * */
 
-/*
 function counter(){
   let num = 0;
   return function increase(){
@@ -61,4 +60,3 @@ func();
 func();
 func();
 func();
-*/
